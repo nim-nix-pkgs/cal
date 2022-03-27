@@ -11,6 +11,7 @@
   inputs.src-cal-master.ref   = "refs/heads/master";
   inputs.src-cal-master.owner = "xflywind";
   inputs.src-cal-master.repo  = "cal";
+  inputs.src-cal-master.dir   = "";
   inputs.src-cal-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
