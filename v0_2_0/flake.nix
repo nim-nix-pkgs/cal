@@ -11,7 +11,6 @@
   inputs.src-cal-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-cal-v0_2_0.owner = "xflywind";
   inputs.src-cal-v0_2_0.repo  = "cal";
-  inputs.src-cal-v0_2_0.dir   = "";
   inputs.src-cal-v0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
